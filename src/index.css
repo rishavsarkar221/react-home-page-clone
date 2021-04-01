@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap');
+
+* {
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.header {
+    background-image: url('https://wallpaperaccess.com/full/3949083.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    color: white;
+}
+
+.heading {
+    font-family: Kanit;
+    font-size: 60px;
+    margin-bottom: 1.25%;
+    color: #30e6e6;
+}
+
+.content {
+    margin-bottom: 4%;
+    font-family: Roboto;
+    font-size: 30px;
+    font-weight: thin;
+}
+
+.logo {
+    width: 15%;
+    animation: rotate 10s linear infinite;
+}
+
+.headerButton {
+    background-color: #30e6e6; /* Green */
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    outline: none;
+    cursor: pointer;
+}
+
+.headerButton:hover {
+    transition: 0.5s;
+    background-color: #fff;
+}
+
+.headerLink {
+    color: #30e6e6;
+    font-family: Arial;
+    text-decoration: none;
+    margin-left: 2.5%;
+    font-size: 22.5px;
+}
+
+.arrow {
+    font-family: Montserrat;
+}
+
+.headerLink:hover {
+    transition: 0.5s;
+    color: #fff;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.responsivePromises {
+    margin-top: 8%;
+    text-align: left;
+}
+
+.promises {
+    display: inline-block;
+    margin-right: 1.5%;
+    margin-left: 1.5%; 
+    width: 30%;
+    margin-bottom: 5%;
+    font-size: 15px;
+    line-height: 2.25;
+}
+
+.promisesHeading {
+    font-family: Montserrat;
+    margin-bottom: 4%;
+}
+
+.promisesContent {
+    font-family: Open Sans;
+}
+
+hr {
+    width: 50%;
+    margin-bottom: 10%;
+    margin-left: 25%;
+}
+
+.code {
+    margin-bottom: 7%;
+    width: 50%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.codeHeading {
+    font-family: Work Sans;
+    margin-bottom: 3%;
+}
+
+.codeContent {
+    font-family: Open Sans;
+    line-height: 2;
+    margin-bottom: 2.5%;
+}
